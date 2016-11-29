@@ -1,3 +1,5 @@
+#include "precompiled.h"
+
 #include "Image/image.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
@@ -10,5 +12,3 @@ Image::Image() {
 	cv::namedWindow("EyeLikeBase");
 	cv::waitKey(0);
 }
-
-
